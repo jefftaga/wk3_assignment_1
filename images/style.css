@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/* HTML and Body Styles */
+    html {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #b4ed6f6c;
+            color:rgb(9, 13, 13);
+        }
+
+/* Heading Styles */
+        h1, h2, h3, h4 {
+            display: inline-block;
+            color:rgb(1, 56, 11);
+        }
+        
+        h1, p {
+            margin: 0;
+        }
+        h2, h3, h4 {
+            margin-bottom: 0;
+        }
+        
+        #himawari {
+            display: inline-block;
+            background-color: rgb(255, 207, 84);
+            padding: 0.3em 0.6em;
+            border-radius: 8px;
+        }
+/* Horizontal Rule Styles */
+        hr {
+            border: none;
+            height: 2px;
+            background-color: black;
+            margin-top: 0.2em;
+        }
+        #top {
+            margin-bottom: 3em;
+        }
+/* Aside and Blockquote Styles */
+        a {
+            text-decoration: none;
+            color:rgb(49, 81, 108);
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+            font-weight: bolder;
+            color:rgb(208, 111, 0);
+        }
+
+        p, ol, ul {
+            max-width: 900px;
+            font-family: 'Courier New', 'Courier New', Courier, monospace;
+            font-weight: 600;
+        }
+
+/* List Styles */
+        ol {
+            margin-top: 0;
+        }
+        ul {
+            margin-top: 0;
+            margin-bottom: 11em;
+        }
+/* Footer Styles */
+        footer p{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: normal;
+        }
